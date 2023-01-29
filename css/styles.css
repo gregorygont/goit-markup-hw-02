@@ -1,0 +1,209 @@
+/* main background color #FFFFFF; */
+/* secondary background color #4D5AE5; */
+/* main body text color #434455; */
+/* secondary text color #2E2F42; */
+/* accent #404BBF; */
+/* team background color #F5F4FD; */
+/* footer logo text color #F4F4FD; */
+/* footer text color #E7E9FC; */
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #4D5AE5;
+    --color-main-text: #434455;
+    --color-secondary-text: #2E2F42;
+    --accent: #404BBF;
+    --color-bg-team: #F5F4FD;
+    --color-footer-logo: #F4F4FD;
+    --color-footer-text: #E7E9FC;
+}
+
+/* General formatting */
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--color-main-text);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Logo */
+.logo {
+    color: var(--color-main-text);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--secondary-bg-color);
+}
+
+/* Nav */
+.link {
+    color: var(--color-main-text);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent);
+}
+
+.site-nav .link.current {
+    color: var(--accent);
+}
+
+/* Section hero */
+.hero {
+    background: var(--color-secondary-text);
+    color: var(--primary-bg-color);
+}
+
+.hero-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-bg-color);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent);
+    cursor: pointer;
+}
+
+/* Our advantages section style */
+
+.advantages-hidden {
+    display: none;
+}
+
+.subtitle-advantages {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--color-secondary-text);
+}
+
+/* Section what are we doing */
+.gallery-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--color-secondary-text);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Section our team  */
+.team {
+    background-color: var(--color-bg-team);
+}
+
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-secondary-text);
+}
+
+.subtitle-team {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: var(--color-secondary-text);
+}
+
+.team p {
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--color-secondary-text);
+}
+
+.footer-logo {
+    color: var(--color-footer-logo);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: var(--color-footer-text);
+}
+
+
+/* Portfolio.html */
+
+/* Button filters */
+
+.hidden {
+    display: none;
+}
+
+.btn-list {
+    text-align: center;
+}
+
+.button {
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent);
+    color: var(--primary-bg-color);
+}
+
+/* Project section */
+
+.projects-list:hover,
+.projects-list:focus {
+    background-color: var(--secondary-bg-color);
+}
+
+.projects-header {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--color-secondary-text);
+}
+
+.projects-text {
+    color: var(--color-main-text);
+}
