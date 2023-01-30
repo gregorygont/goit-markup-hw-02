@@ -70,6 +70,10 @@ a {
   font-style: normal;
   color: var(--color-main-text);
 }
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent);
+}
 
 /* Section hero */
 .hero {
